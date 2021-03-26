@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'OpenSans Regular';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans Bold';
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+
+body{
+    font-family: 'OpenSans Regular';
+    overflow-x: hidden;
+    background-color:#fff ;
+}
+.ellipse-header{
+    position: absolute;
+    right: -10%;
+    top: -30%;
+    width: 60%;
+}
+
+.h-100{
+    height: 100vh;
+}
+
+.navbar-brand .img-fluid{
+    height: 45px;
+}
+
+a{
+    cursor: pointer;
+}
+
+.navbar-fixed-top{
+    position:fixed;
+}
+
+.section-space {
+    padding: 100px 0;
+}
+
+.media-middle {
+    vertical-align: middle;
+}
+
+.mb-50{
+    margin-bottom: 50px !important;
+}
+
+.parallax{
+    position: relative;
+    background: no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-01{
+    background-image: url(../img/AUTUMN_fall_landscape_nature_tree_forest_leaf_leaves_6033x4199.png);
+}
+
+.bg-02{
+    background-image: url(../img/City_13370x4293.jpg);
+}
+
+.parallax.light-overlay:before, .parallax:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+}
+
+.parallax:before {
+    background: rgba(0,0,0,.7);
+}
+
+.navbar-nav .nav-item{
+    position: relative;
+}
+
+.navbar-nav .nav-item .nav-link{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color:#6d6d6d;
+}
+
+.navbar-nav .nav-item.active .nav-link{
+    color:#82b440;
+}
+
+.navbar-nav .nav-item::before{
+    content: "";
+    width: 0;
+    position: absolute;
+    height: 1px;
+    background-color: #000;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.navbar-nav .nav-item.active::before,.navbar-nav .nav-item:hover::before{
+    width: 80%;
+    opacity: 1;
+}
+
+.mb-100{
+    margin-bottom: 100px;
+}
+
+.info-list li {
+    padding: 0 0 1.5rem;
+}
+
+.info-list li label {
+    font-size: 16px;
+    display: block;
+    font-weight: 700;
+}
