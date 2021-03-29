@@ -124,7 +124,8 @@
                                 </li>
                                 <li>
                                     <label>Website:</label>
-                                    <span><a href="https://huyduong98.github.io/info/">https://huyduong98.github.io/info/</a></span>
+                                    <span><a
+                                            href="https://huyduong98.github.io/info/">https://huyduong98.github.io/info/</a></span>
                                 </li>
                                 <li>
                                     <label>Facebook:</label>
@@ -139,35 +140,49 @@
                         </div>
                         <div class="col-md-6 col-12">
                             <h4 class="text-uppercase font-weight-bold">SKILLS</h4>
-                            <p> Accusantium alias beatae deserunt facilis fuga inventore iure laborum magnam, nam nostrum nulla odio placeat possimus quae quaerat quos reiciendis sapiente soluta? Lorem ipsum dolor sit amet.</p>
+                            <p> Accusantium alias beatae deserunt facilis fuga inventore iure laborum magnam, nam
+                                nostrum nulla odio placeat possimus quae quaerat quos reiciendis sapiente soluta? Lorem
+                                ipsum dolor sit amet.</p>
                             <div class="progress mild-progress-style">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 90%">
                                     <div class="skills-info">Tin học văn phòng <span>90%</span></div>
                                 </div>
                             </div>
                             <div class="progress mild-progress-style">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 50%">
                                     <div class="skills-info">Tiếng anh<span>66%</span></div>
                                 </div>
                             </div>
                             <div class="progress mild-progress-style">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 90%">
                                     <div class="skills-info">HTML<span>90%</span></div>
                                 </div>
                             </div>
                             <div class="progress mild-progress-style">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 90%">
                                     <div class="skills-info">CSS<span>90%</span></div>
                                 </div>
                             </div>
                             <div class="progress mild-progress-style">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 90%">
                                     <div class="skills-info">Javascript/Jquery<span>90%</span></div>
                                 </div>
                             </div>
                             <div class="progress mild-progress-style">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-                                    <div class="skills-info">SQL/SQL Server<span>90%</span></div>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 80%">
+                                    <div class="skills-info">C#<span>80%</span></div>
+                                </div>
+                            </div>
+                            <div class="progress mild-progress-style">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 70%">
+                                    <div class="skills-info">SQL/SQL Server<span>70%</span></div>
                                 </div>
                             </div>
                         </div>
@@ -346,6 +361,95 @@
             </div>
         </div>
     </section>
+    <section class="section-space ">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12">
+                    <div class="section-title text-center mt-100">
+                        <h1 class="title">Contact Us</h1>
+                        <p class="color-gray">Pellentesque eu quam sem, ac malesuada leo sem quam pellente.</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="overlay">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <div class="col-md-9">
+                                <div class="contact-us text-center">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="mt-5 text-center px-3">
+                                                <div class="d-flex flex-row align-items-center"> <span class="icons"><i
+                                                            class="fa fa-map-marker"></i></span>
+                                                    <div class="address text-left"> <span>Address</span>
+                                                        <p>461, Sugar camp, San jose, California, USA</p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-row align-items-center mt-3"> <span
+                                                        class="icons"><i class="fa fa-phone"></i></span>
+                                                    <div class="address text-left"> <span>Phone</span>
+                                                        <p>501 205 2929</p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-row align-items-center mt-3"> <span
+                                                        class="icons"><i class="fa fa-envelope-o"></i></span>
+                                                    <div class="address text-left"> <span>Address</span>
+                                                        <p>contact@bbbootstrap.com</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="text-center px-1">
+                                                <div class="forms p-4 py-5 bg-white">
+                                                    <h5>Send Message</h5>
+                                                    <div class="mt-4 inputs">
+                                                         <input type="text" class="form-control"
+                                                            placeholder="Name">
+                                                             <input type="text" class="form-control"
+                                                            placeholder="Email">
+                                                            <input type="number" class="form-control"
+                                                            placeholder="SĐT">
+                                                             <textarea class="form-control"
+                                                            placeholder="Type your message"></textarea> </div>
+                                                    <div class="button mt-4 text-left"> <button
+                                                            class="btn btn-dark">Send</button> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+        <?php
+        
+        /* All form fields are automatically passed to the PHP script through the array $HTTP_POST_VARS. */
+        $email = $HTTP_POST_VARS['email'];
+        $subject = $HTTP_POST_VARS['subject'];
+        $message = $HTTP_POST_VARS['message'];
+        
+        /* PHP form validation: the script checks that the Email field contains a valid email address and the Subject field isn't empty. preg_match performs a regular expression match. It's a very powerful PHP function to validate form fields and other strings - see PHP manual for details. */
+        if (!preg_match("/\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/", $email)) {
+          echo "<h4>Invalid email address</h4>";
+          echo "<a href='javascript:history.back(1);'>Back</a>";
+        } elseif ($subject == "") {
+          echo "<h4>No subject</h4>";
+          echo "<a href='javascript:history.back(1);'>Back</a>";
+        }
+        
+        /* Sends the mail and outputs the "Thank you" string if the mail is successfully sent, or the error string otherwise. */
+        elseif (mail($email,$subject,$message)) {
+          echo "<h4>Thank you for sending email</h4>";
+        } else {
+          echo "<h4>Can't send email to $email</h4>";
+        }
+        ?>
     <script src='js/jquery-3.5.1.min.js'></script>
     <script src='js/owl.carousel.min.js'></script>
     <script src='fonts/typewriterjs-master/typewriter.js'></script>
