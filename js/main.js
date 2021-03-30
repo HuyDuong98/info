@@ -9,17 +9,14 @@ $(window).scroll(function () {
         $("li[data-nav='product']").addClass("active");
     }
     else if (scroll > experience) {
-        console.log("experience",experience);
         $(".nav-item").removeClass("active");
         $("li[data-nav='experience']").addClass("active");
     }
     else if (scroll > about) {
-        console.log("about",about);
         $(".nav-item").removeClass("active");
         $("li[data-nav='about']").addClass("active");
     }
     else if (scroll > 0) {
-        console.log("about",about);
         $(".nav-item").removeClass("active");
         $("li[data-nav='home']").addClass("active");
     }
