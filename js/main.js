@@ -20,5 +20,23 @@ $(window).scroll(function () {
         $(".nav-item").removeClass("active");
         $("li[data-nav='home']").addClass("active");
     }
-     
 });
+
+$(document).ready(function(){
+    var about = $("#about").offset().top - 100;
+    var experience = $("#experience").offset().top - 100;
+    var product = $("#product").offset().top - 100;
+    $("li[data-nav='product']").click(function(){
+        document.documentElement.scrollTop = product;
+    });
+    $("li[data-nav='experience']").click(function(){
+        document.documentElement.scrollTop = experience;
+    });
+    $("li[data-nav='about']").click(function(){
+        document.documentElement.scrollTop = about;
+    });
+    $("li[data-nav='home']").click(function(){
+        document.documentElement.scrollTop = 0;
+    });
+
+})
