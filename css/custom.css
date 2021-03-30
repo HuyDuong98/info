@@ -198,3 +198,21 @@ header nav.navbar.navbar-expanded{
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
 }
+
+@media only screen and (max-width: 768px) {
+    .about-info .media{
+        display: flex;
+        justify-content: center;
+        padding: 15px 0 35px;
+    }
+    header nav.navbar{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .banner-content h5{
+        font-size: 1.5rem;
+    }
+    .banner-content h1{
+        font-size: 2rem;
+    }
+  }
