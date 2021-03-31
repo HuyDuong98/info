@@ -199,6 +199,13 @@ header nav.navbar.navbar-expanded{
     filter: grayscale(0%);
 }
 
+.large-header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 @media only screen and (max-width: 768px) {
     .about-info .media{
         display: flex;
@@ -224,11 +231,7 @@ header nav.navbar.navbar-expanded{
     .navbar-nav .nav-item.active::before, .navbar-nav .nav-item:hover::before{
         opacity: 0;
     }
-}
-
-.large-header{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    .large-header{
+        display: none;
+    }
 }
