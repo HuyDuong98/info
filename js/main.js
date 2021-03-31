@@ -22,21 +22,24 @@ $(window).scroll(function () {
     }
 });
 
-$(document).ready(function(){
-    var about = $("#about").offset().top - 100;
-    var experience = $("#experience").offset().top - 100;
-    var product = $("#product").offset().top - 100;
-    $("li[data-nav='product']").click(function(){
-        document.documentElement.scrollTop = product;
+$(document).ready(function () {
+    var about = $("#about").offset().top - 200;
+    var experience = $("#experience").offset().top - 200;
+    var product = $("#product").offset().top - 200;
+    $("li[data-nav='product']").click(function () {
+        document.documentElement.scrollTop = $("#product").offset().top - 200;
     });
-    $("li[data-nav='experience']").click(function(){
-        document.documentElement.scrollTop = experience;
+    $("li[data-nav='experience']").click(function () {
+        document.documentElement.scrollTop = $("#experience").offset().top - 200;
     });
-    $("li[data-nav='about']").click(function(){
-        document.documentElement.scrollTop = about;
+    $("li[data-nav='about']").click(function () {
+        document.documentElement.scrollTop = $("#about").offset().top - 200;
     });
-    $("li[data-nav='home']").click(function(){
+    $("li[data-nav='home']").click(function () {
         document.documentElement.scrollTop = 0;
     });
+
+
+
 
 })

@@ -225,3 +225,10 @@ header nav.navbar.navbar-expanded{
         opacity: 0;
     }
 }
+
+.large-header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
