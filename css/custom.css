@@ -236,4 +236,18 @@ header nav.navbar.navbar-expanded{
     .large-header{
         display: none;
     }
+    .portfolio{
+        margin-bottom: 15px;
+    }
+    .portfolio .label {
+        bottom: 0 !important;
+    }
+    .portfolio .label-bg {
+        background: #82b440d9 !important;
+    }
+    .portfolio .label-text a {
+        font-size: 17px !important;
+        font-weight: 500 !important;
+        margin-top: 10px !important;
+    }
 }

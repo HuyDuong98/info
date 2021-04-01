@@ -1,8 +1,8 @@
-#fh5co-portfolio-section, #fh5co-intro-section,
+/* #fh5co-portfolio-section, #fh5co-intro-section,
 #fh5co-services-section, #fh5co-contact-section,
 #fh5co-team-section {
   padding-bottom: 5em;
-}
+} */
 
 #fh5co-intro-section {
   margin-bottom: 4em;
@@ -81,6 +81,8 @@
 
 .portfolio img {
   max-width: 100%;
+  height: 369.95px;
+  object-fit: cover;
   z-index: -1;
   position: relative;
   -webkit-transform: scale(1.1);

@@ -38,8 +38,4 @@ $(document).ready(function () {
     $("li[data-nav='home']").click(function () {
         document.documentElement.scrollTop = 0;
     });
-
-
-
-
-})
+});
