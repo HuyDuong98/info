@@ -808,7 +808,7 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
             ! function() {
                 n.pos = t || null, n.radius = e || null, n.color = i || null
             }(), this.draw = function() {
-                n.active && (m.beginPath(), m.arc(n.pos.x, n.pos.y, n.radius, 0, 2 * Math.PI, !1), m.fillStyle = "rgba(223,242,36," + n.active + ")", m.fill())
+                n.active && (m.beginPath(), m.arc(n.pos.x, n.pos.y, n.radius, 0, 2 * Math.PI, !1), m.fillStyle = "rgba(224,224,224," + n.active + ")", m.fill())
             }
         }
 
