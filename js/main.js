@@ -23,6 +23,9 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function () {
+    setTimeout(function(){
+        $('.loader-overlay').fadeOut(3000);
+    }, 3000);
     var about = $("#about").offset().top - 200;
     var experience = $("#experience").offset().top - 200;
     var product = $("#product").offset().top - 200;
