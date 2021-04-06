@@ -24,10 +24,10 @@ $(window).scroll(function () {
 
 $(document).ready(function () {
     setTimeout(function(){
-        $('.loader-content').fadeOut(3000);
+        $('.loader-content').fadeOut(2000);
     }, 3000);
     setTimeout(function(){
-        $('.loader-overlay').fadeOut(3000);
+        $('.loader-overlay').fadeOut(1000);
     }, 5000);
     var about = $("#about").offset().top - 200;
     var experience = $("#experience").offset().top - 200;
