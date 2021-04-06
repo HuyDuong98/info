@@ -61,8 +61,12 @@ a{
     background-size: cover;
 }
 
-.bg-01{
+/* .bg-01{
     background-image: url(../img/AUTUMN_fall_landscape_nature_tree_forest_leaf_leaves_6033x4199.webp);
+} */
+
+.bg-01{
+    background-image: url(../images/Background.png);
 }
 
 .bg-02{
