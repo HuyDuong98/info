@@ -1,6 +1,6 @@
 AOS.init();
 $(".lazy").Lazy({
-    threshold:300
+    threshold:500
 });
 $(window).scroll(function () {
     var scroll = $(window).scrollTop();
