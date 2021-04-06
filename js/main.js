@@ -24,8 +24,11 @@ $(window).scroll(function () {
 
 $(document).ready(function () {
     setTimeout(function(){
-        $('.loader-overlay').fadeOut(3000);
+        $('.loader-content').fadeOut(3000);
     }, 3000);
+    setTimeout(function(){
+        $('.loader-overlay').fadeOut(3000);
+    }, 5000);
     var about = $("#about").offset().top - 200;
     var experience = $("#experience").offset().top - 200;
     var product = $("#product").offset().top - 200;
