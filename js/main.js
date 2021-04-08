@@ -1,5 +1,7 @@
 AOS.init();
-$(".lazy").Lazy();
+$(".lazy").Lazy({
+    threshold:0
+});
 $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     var about = $("#about").offset().top - 200;
