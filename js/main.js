@@ -1,6 +1,6 @@
 AOS.init();
 $(".lazy").Lazy({
-    threshold:0
+    threshold: 0
 });
 $(window).scroll(function () {
     var scroll = $(window).scrollTop();
@@ -26,10 +26,10 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function () {
-    setTimeout(function(){
+    setTimeout(function () {
         $('.loader-content').fadeOut(2000);
     }, 3000);
-    setTimeout(function(){
+    setTimeout(function () {
         $('.loader-overlay').fadeOut(1000);
     }, 5000);
     var about = $("#about").offset().top - 200;

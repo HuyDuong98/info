@@ -56,9 +56,14 @@ a{
 
 .parallax{
     position: relative;
+   
     background: no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.parallax{
+    background-image: url(/info/img/AUTUMN_fall_landscape_nature_tree_forest_leaf_leaves_6033x4199.png);
 }
 
 .parallax.light-overlay:before, .parallax:before {
