@@ -21,11 +21,14 @@ function toDataURL(src, callback, outputFormat) {
 
 function changeImageBase64(item) {
     var url = $(item).attr("data-src");
-    
+    var tagname = $(item).prop("tagName");
     toDataURL(url,
         function (dataUrl) {
-            console.log(item);
-            $(item).attr("src", dataUrl);
+            if (tagname == "IMG") {
+                $(item).attr("src", dataUrl);
+            }else{
+                $(item).css("background-image", "url("+dataUrl+")");
+            }
             $(item).attr("data-src", "");
         }
     )
@@ -59,10 +62,10 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function () {
-    
+
     $(".lazy-js").each(function () {
         changeImageBase64(this);
-    })
+    });
     setTimeout(function () {
         $('.loader-content').fadeOut(2000);
     }, 3000);
