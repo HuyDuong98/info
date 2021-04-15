@@ -1,3 +1,36 @@
+
+function toDataURL(src, callback, outputFormat) {
+    var img = new Image();
+    img.crossOrigin = 'Anonymous';
+    img.onload = function () {
+        var canvas = document.createElement('CANVAS');
+        var ctx = canvas.getContext('2d');
+        var dataURL;
+        canvas.height = this.naturalHeight;
+        canvas.width = this.naturalWidth;
+        ctx.drawImage(this, 0, 0);
+        dataURL = canvas.toDataURL(outputFormat);
+        callback(dataURL);
+    };
+    img.src = src;
+    if (img.complete || img.complete === undefined) {
+        img.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
+        img.src = src;
+    }
+}
+
+function changeImageBase64(item) {
+    var url = $(item).attr("data-src");
+    
+    toDataURL(url,
+        function (dataUrl) {
+            console.log(item);
+            $(item).attr("src", dataUrl);
+            $(item).attr("data-src", "");
+        }
+    )
+}
+
 AOS.init();
 $(".lazy").Lazy({
     threshold: 0
@@ -26,6 +59,10 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function () {
+    
+    $(".lazy-js").each(function () {
+        changeImageBase64(this);
+    })
     setTimeout(function () {
         $('.loader-content').fadeOut(2000);
     }, 3000);
