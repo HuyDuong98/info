@@ -87,6 +87,9 @@
   float: right;
   position: relative;
 }
+.main-timeline .timeline-content.mt-md-100 {
+  margin-top: 100px;
+}
 .main-timeline .timeline-content:before {
   content: "";
   width: 70%;
@@ -224,6 +227,9 @@
 @media only screen and (max-width: 767px) {
   .main-timeline {
     padding-top: 50px;
+  }
+  .main-timeline .timeline-content.mt-md-100 {
+    margin-top: 0px;
   }
   .main-timeline:before {
     left: 80px;
